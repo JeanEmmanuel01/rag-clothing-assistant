@@ -216,3 +216,14 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project-specific
+# SentenceTransformer cache_folder used by utils.py (BAAI/bge-base-en-v1.5, hundreds of MB)
+.models/
+
+# Local Weaviate persistence data, if weaviate_server.py points to a path inside the repo
+weaviate_data/
+.weaviate/
+
+# Claude Code local project config
+.claude/
